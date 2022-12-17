@@ -1,0 +1,66 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #eee;
+    font-family: monospace;
+    display: flex;
+    height: 100vh;
+}
+
+.container{
+    background: #3c5299;
+    color: #fff;
+    margin: auto;
+    padding: 4.5em;
+    border-radius: 5px;
+    /* text-align: center; */
+}
+
+.container .header{
+    font-size: 1.2em;
+}
+
+.container .form-container{
+    border-top: 3px solid #fff;
+    padding-block: 1em;
+}
+
+.container label{
+    font-size: 1.75em;
+}
+
+.container input{
+    outline: none;
+    border: none;
+    border-radius: 18px;
+    font-size: 1.4em;
+    padding: 3px 10px;
+}
+
+.container .form-control{
+    float: right;
+}
+
+.container .radio{
+    margin: 5px;
+}
+
+.container .form-group{
+    padding: 1em;
+}
+
+.container .btn-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.container .btn{
+    background: #fff;
+    padding: 5px 20px;
+}
